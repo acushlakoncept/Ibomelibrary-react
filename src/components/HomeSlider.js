@@ -3,6 +3,7 @@ import Carousel from 'react-bootstrap/Carousel'
 import slide001 from '../assets/images/banner/slide001.jpg'
 import slide002 from '../assets/images/banner/slide002.jpg'
 import slide003 from '../assets/images/banner/slide003_boyreading.jpg'
+import '../assets/styles/slider.css';
 
 export default function HomeSlider() {
     const [index, setIndex] = useState(0);
@@ -20,8 +21,8 @@ export default function HomeSlider() {
             alt="First slide"
           />
           <Carousel.Caption>
-            <h3>First slide label</h3>
-            <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <h1>Learn . Innovate . Impact</h1><br />
+            <p>More than a  library</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -32,8 +33,8 @@ export default function HomeSlider() {
           />
   
           <Carousel.Caption>
-            <h3>Second slide label</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <h1>West Africa's first digital library</h1><br />
+            <p>Designed to deliver topnotch information and educational services both onsite and virtually.</p>
           </Carousel.Caption>
         </Carousel.Item>
         <Carousel.Item>
@@ -44,9 +45,9 @@ export default function HomeSlider() {
           />
   
           <Carousel.Caption>
-            <h3>Third slide label</h3>
+            <h1>Technology and Education Cradle</h1><br />
             <p>
-              Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+            A springboard to African solutions created by African for African challenges
             </p>
           </Carousel.Caption>
         </Carousel.Item>
