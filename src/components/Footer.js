@@ -1,6 +1,7 @@
 import React from "react";
 import { Container } from "react-bootstrap";
 import htgLogo from "../assets/images/htg-logo.png";
+import '../assets/styles/footer.css';
 
 export default function Footer() {
   return (
