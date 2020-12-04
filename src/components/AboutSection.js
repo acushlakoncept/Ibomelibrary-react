@@ -8,17 +8,17 @@ export default function Aboutsection() {
     <section className="section about">
       <section className="section-box">
         <div className="section-content">
-          <h4 class="header-sub">About us</h4>
-          <h2 class="head-primary">
-            Education <span class="head-secondary">per Excellence</span>
+          <h4 className="header-sub">About us</h4>
+          <h2 className="head-primary">
+            Education <span className="head-secondary">per Excellence</span>
           </h2>
-          <p class="paragraph">
+          <p className="paragraph">
             With the current Private Public Partnership (PPP) between the State
             Government and HTG Limited, this monumental edifice continues to
             provide, credible, convenient, and affordable educational technology
             services for everyone.
           </p>
-          <p class="paragraph">
+          <p className="paragraph">
             HTG Limited is an outstanding business solutions provider leveraging
             on technology to proffer business solutions to enterprises and
             public service organizations. Our core values span across

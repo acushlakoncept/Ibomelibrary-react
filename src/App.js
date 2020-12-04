@@ -5,6 +5,7 @@ import HomeSlider from './components/HomeSlider';
 import NavBar from './components/NavBar';
 import FeatureSection from './components/FeatureSection';
 import AboutSection from './components/AboutSection';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <HomeSlider />
       <FeatureSection />
       <AboutSection />
+      <Footer />
     </div>
   );
 }
