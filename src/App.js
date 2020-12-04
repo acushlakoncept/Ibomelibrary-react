@@ -4,6 +4,7 @@ import './App.css';
 import HomeSlider from './components/HomeSlider';
 import NavBar from './components/NavBar';
 import FeatureSection from './components/FeatureSection';
+import AboutSection from './components/AboutSection';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <NavBar />
       <HomeSlider />
       <FeatureSection />
+      <AboutSection />
     </div>
   );
 }

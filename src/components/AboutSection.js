@@ -1,6 +1,7 @@
 import React from "react";
 import { Button } from "react-bootstrap";
 import elibraryOpen from "../assets/images/elibrary_open.jpg";
+import '../assets/styles/aboutSection.css';
 
 export default function Aboutsection() {
   return (
@@ -27,7 +28,7 @@ export default function Aboutsection() {
           </p>
 
           <a href="#">
-            <Button className="btn-htg">read more</Button>
+            <Button className="btn-htg p-2">read more</Button>
           </a>
         </div>
 
