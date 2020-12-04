@@ -1,11 +1,13 @@
 import React from "react";
 import { Container, Jumbotron } from "react-bootstrap";
 import '../assets/styles/about.css'
+import Footer from "../components/Footer";
+import NavBar from "../components/NavBar";
 
 export default function About() {
   return (
     <>
-      
+      <NavBar />
       <Jumbotron fluid className="about-header">
         <Container>
           <h1 className="display-4 about-head">About Ibom E-library</h1>
@@ -32,6 +34,7 @@ export default function About() {
             <p className="lead">Welcome!</p>
         </div>
     </Container>
+    <Footer />
     </>
   );
 }
