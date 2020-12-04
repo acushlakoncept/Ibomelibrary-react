@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/Ibomelibrary-react/static/css/main.84cc93a0.chunk.css",
-    "main.js": "/Ibomelibrary-react/static/js/main.8f62c71d.chunk.js",
-    "main.js.map": "/Ibomelibrary-react/static/js/main.8f62c71d.chunk.js.map",
-    "runtime-main.js": "/Ibomelibrary-react/static/js/runtime-main.2891faf6.js",
-    "runtime-main.js.map": "/Ibomelibrary-react/static/js/runtime-main.2891faf6.js.map",
-    "static/css/2.20aa2d7b.chunk.css": "/Ibomelibrary-react/static/css/2.20aa2d7b.chunk.css",
-    "static/js/2.164aa823.chunk.js": "/Ibomelibrary-react/static/js/2.164aa823.chunk.js",
-    "static/js/2.164aa823.chunk.js.map": "/Ibomelibrary-react/static/js/2.164aa823.chunk.js.map",
-    "static/js/3.8afc140a.chunk.js": "/Ibomelibrary-react/static/js/3.8afc140a.chunk.js",
-    "static/js/3.8afc140a.chunk.js.map": "/Ibomelibrary-react/static/js/3.8afc140a.chunk.js.map",
+    "main.css": "/Ibomelibrary-react/static/css/main.4ae3094c.chunk.css",
+    "main.js": "/Ibomelibrary-react/static/js/main.0926c14f.chunk.js",
+    "main.js.map": "/Ibomelibrary-react/static/js/main.0926c14f.chunk.js.map",
+    "runtime-main.js": "/Ibomelibrary-react/static/js/runtime-main.a6b14316.js",
+    "runtime-main.js.map": "/Ibomelibrary-react/static/js/runtime-main.a6b14316.js.map",
+    "static/css/2.1a02f21c.chunk.css": "/Ibomelibrary-react/static/css/2.1a02f21c.chunk.css",
+    "static/js/2.63cd1a71.chunk.js": "/Ibomelibrary-react/static/js/2.63cd1a71.chunk.js",
+    "static/js/2.63cd1a71.chunk.js.map": "/Ibomelibrary-react/static/js/2.63cd1a71.chunk.js.map",
+    "static/js/3.faf2f7ea.chunk.js": "/Ibomelibrary-react/static/js/3.faf2f7ea.chunk.js",
+    "static/js/3.faf2f7ea.chunk.js.map": "/Ibomelibrary-react/static/js/3.faf2f7ea.chunk.js.map",
     "index.html": "/Ibomelibrary-react/index.html",
-    "static/css/2.20aa2d7b.chunk.css.map": "/Ibomelibrary-react/static/css/2.20aa2d7b.chunk.css.map",
-    "static/css/main.84cc93a0.chunk.css.map": "/Ibomelibrary-react/static/css/main.84cc93a0.chunk.css.map",
-    "static/js/2.164aa823.chunk.js.LICENSE.txt": "/Ibomelibrary-react/static/js/2.164aa823.chunk.js.LICENSE.txt",
+    "static/css/2.1a02f21c.chunk.css.map": "/Ibomelibrary-react/static/css/2.1a02f21c.chunk.css.map",
+    "static/css/main.4ae3094c.chunk.css.map": "/Ibomelibrary-react/static/css/main.4ae3094c.chunk.css.map",
+    "static/js/2.63cd1a71.chunk.js.LICENSE.txt": "/Ibomelibrary-react/static/js/2.63cd1a71.chunk.js.LICENSE.txt",
     "static/media/booking.ad06abfe.jpg": "/Ibomelibrary-react/static/media/booking.ad06abfe.jpg",
     "static/media/demo.73a0fb1b.jpg": "/Ibomelibrary-react/static/media/demo.73a0fb1b.jpg",
     "static/media/elibrary_open.a4be6027.jpg": "/Ibomelibrary-react/static/media/elibrary_open.a4be6027.jpg",
@@ -26,10 +26,10 @@
     "static/media/tryit.c27dc668.jpg": "/Ibomelibrary-react/static/media/tryit.c27dc668.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.2891faf6.js",
-    "static/css/2.20aa2d7b.chunk.css",
-    "static/js/2.164aa823.chunk.js",
-    "static/css/main.84cc93a0.chunk.css",
-    "static/js/main.8f62c71d.chunk.js"
+    "static/js/runtime-main.a6b14316.js",
+    "static/css/2.1a02f21c.chunk.css",
+    "static/js/2.63cd1a71.chunk.js",
+    "static/css/main.4ae3094c.chunk.css",
+    "static/js/main.0926c14f.chunk.js"
   ]
 }
