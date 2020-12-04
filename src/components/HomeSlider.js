@@ -13,7 +13,7 @@ export default function HomeSlider() {
     };
   
     return (
-      <Carousel activeIndex={index} onSelect={handleSelect}>
+      <Carousel activeIndex={index} onSelect={handleSelect} className="home-slider">
         <Carousel.Item>
           <img
             className="d-block w-100"

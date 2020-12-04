@@ -5,7 +5,7 @@ import '../assets/styles/navbar.css'
 
 export default function NavBar() {
   return (
-    <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
+    <Navbar collapseOnSelect expand="lg" bg="light" variant="light" className="home-nav">
       <div className="container">
       <Navbar.Brand href="#home"><img
             className="ibom-logo"

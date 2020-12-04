@@ -5,6 +5,10 @@
   --black: #000;
 }
 
+.home-slider {
+  margin-top: -65px;
+}
+
 .carousel-caption > h1,
 .carousel-caption > p {
   background-color: rgba(255, 101, 1, 0.8);

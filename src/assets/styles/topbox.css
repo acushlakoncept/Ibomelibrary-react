@@ -1,0 +1,31 @@
+.top__box {
+  position: relative;
+  margin-bottom: 1rem;
+  overflow: hidden;
+}
+
+.top__box--img {
+  width: 95%;
+  box-shadow: 1px 0.5px 2px rgba(0, 0, 0, 0.2);
+  transform: scale(1);
+  transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.top__box--img:hover {
+  box-shadow: 1px 1px 0.5px rgba(0, 0, 0, 0.2);
+  transform: translateY(-2px) scale(1.1);
+}
+
+.btn-htg {
+  color: #fff;
+  background-color: var(--primary-light);
+  border-color: var(--primary-light);
+  font-weight: bold;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.btn-htg:hover {
+  color: #fff !important;
+  background-color: var(--primary);
+  border-color: var(--primary);
+}
