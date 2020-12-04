@@ -1,18 +1,22 @@
 import React from 'react'
 import { Container, Row } from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 import Topbox from './TopBox';
-import booking from '../assets/images/booking.jpg'
+import booking from '../assets/images/booking.jpg';
+import demo from '../assets/images/demo.jpg';
+import tryit from '../assets/images/tryit.jpg';
+import registration from '../assets/images/registration.jpg';
 
 export default function Featuresection() {
     
 
     return (
         <Container>
-            <Row class="d-flex justify-content-around flex-wrap mb-2 pt-4 pb-4">
-                <Topbox name="EVENTS" image={booking} alt="events"  />
-                <Topbox name="EVENTS" image={booking} alt="events"  />
-                <Topbox name="EVENTS" image={booking} alt="events"  />
-                <Topbox name="EVENTS" image={booking} alt="events"  />
+            <Row className="justify-content-around mb-2 pt-4 pb-4">
+                <Topbox name="EVENTS" brName="Book Now" image={booking} alt="events"  />
+                <Topbox name="BLINC  All-in-one tech school solution" brName="Request a Demo" image={demo} alt="request demo"  />
+                <Topbox name="Online Public Access Catalog" brName="Try it" image={tryit} alt="Try it"  />
+                <Topbox name="HTG Academy" brName="Register Now" image={registration} alt="registration"  />
             </Row>
         </Container>
     )

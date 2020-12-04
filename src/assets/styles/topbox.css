@@ -1,7 +1,7 @@
 .top__box {
   position: relative;
-  margin-bottom: 1rem;
   overflow: hidden;
+  margin: 0 1px 1rem 1px;
 }
 
 .top__box--img {
@@ -11,9 +11,27 @@
   transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
 
+@media screen and (min-width: 600px) {
+  .top__box {
+    width: 15rem;
+  }
+  .top__box--img {
+    width: 15rem;
+  }
+}
+
 .top__box--img:hover {
   box-shadow: 1px 1px 0.5px rgba(0, 0, 0, 0.2);
   transform: translateY(-2px) scale(1.1);
+}
+
+.top__box--btn {
+    bottom: -0.2rem;
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    cursor: pointer !important;
 }
 
 .btn-htg {
