@@ -7,7 +7,7 @@ export default function NavBar() {
   return (
     <Navbar collapseOnSelect expand="lg" bg="light" variant="light" className="home-nav">
       <div className="container">
-      <Navbar.Brand href="#home"><img
+      <Navbar.Brand href="/"><img
             className="ibom-logo"
             src={logo}
             alt="Ibomelibrary logo"
@@ -17,7 +17,7 @@ export default function NavBar() {
         <Nav className="mr-auto">
         </Nav>
         <Nav>
-          <Nav.Link href="#">About</Nav.Link>
+          <Nav.Link href="/about">About</Nav.Link>
           <NavDropdown title="Products" id="collasible-nav-dropdown">
             <NavDropdown.Item href="http://opac.theibomelibrary.com/" target="__blank" rel="noopener">Elibrary Access</NavDropdown.Item>
             <NavDropdown.Item href="https://blinc.com.ng/" target="__blank" rel="noopener">
