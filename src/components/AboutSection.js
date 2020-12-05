@@ -1,6 +1,6 @@
-import React from "react";
-import { Button } from "react-bootstrap";
-import elibraryOpen from "../assets/images/elibrary_open.jpg";
+import React from 'react';
+import { Button } from 'react-bootstrap';
+import elibraryOpen from '../assets/images/elibrary_open.jpg';
 import '../assets/styles/aboutSection.css';
 
 export default function Aboutsection() {
@@ -10,7 +10,9 @@ export default function Aboutsection() {
         <div className="section-content">
           <h4 className="header-sub">About us</h4>
           <h2 className="head-primary">
-            Education <span className="head-secondary">per Excellence</span>
+            Education
+            {' '}
+            <span className="head-secondary">per Excellence</span>
           </h2>
           <p className="paragraph">
             With the current Private Public Partnership (PPP) between the State
@@ -27,7 +29,7 @@ export default function Aboutsection() {
             our work ethics and the many solutions we consistently offer.
           </p>
 
-          <a href="#">
+          <a href="/about">
             <Button className="btn-htg p-2">read more</Button>
           </a>
         </div>

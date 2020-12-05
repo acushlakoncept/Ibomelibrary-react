@@ -1,7 +1,10 @@
-import React from "react";
-import '../assets/styles/topbox.css'
+import React from 'react';
+import '../assets/styles/topbox.css';
+import PropTypes from 'prop-types';
 
-export default function Topbox({ name, brName, image, alt, link="#" }) {
+export default function Topbox({
+  name, brName, image, alt, link = '#',
+}) {
   return (
     <div className="top__box">
       <img src={image} className="top__box--img rounded" alt={alt} />
@@ -13,3 +16,11 @@ export default function Topbox({ name, brName, image, alt, link="#" }) {
     </div>
   );
 }
+
+Topbox.propTypes = {
+  name: PropTypes.string.isRequired,
+  brName: PropTypes.string.isRequired,
+  image: PropTypes.string.isRequired,
+  alt: PropTypes.string.isRequired,
+  link: PropTypes.string.isRequired,
+};
