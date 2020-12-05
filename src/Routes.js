@@ -1,15 +1,16 @@
 import React from 'react';
-import { BrowserRouter, Switch, Route } from 'react-router-dom';
+import { createBrowserHistory } from 'history';
+import { Router, Route } from 'react-router';
 import App from './pages/App';
 import About from './pages/About';
 
+const history = createBrowserHistory();
+
 const Routes = () => (
-  <BrowserRouter>
-    <Switch>
-      <Route exact path="/" component={App} />
-      <Route exact path="/about" component={About} />
-    </Switch>
-  </BrowserRouter>
+  <Router history={history}>
+    <Route exact path="/about" component={About} />
+    <Route path="/" component={App} />
+  </Router>
 );
 
 export default Routes;
