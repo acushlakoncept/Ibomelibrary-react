@@ -15,6 +15,7 @@
   .top__box {
     width: 15rem;
   }
+
   .top__box--img {
     width: 15rem;
   }
@@ -26,12 +27,12 @@
 }
 
 .top__box--btn {
-    bottom: -0.2rem;
-    width: 100%;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    cursor: pointer !important;
+  bottom: -0.2rem;
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  cursor: pointer !important;
 }
 
 .btn-htg {

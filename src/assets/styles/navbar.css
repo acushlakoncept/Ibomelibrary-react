@@ -1,19 +1,19 @@
 .ibom-logo {
-    max-height: 55px;
-    padding-top: 10px;
-  }
+  max-height: 55px;
+  padding-top: 10px;
+}
 
-  .nav-link {
-    text-shadow: 0 0.5px 1px rgba(0, 0, 0, 0.3);
-    font-weight: 700;
-  }
+.nav-link {
+  text-shadow: 0 0.5px 1px rgba(0, 0, 0, 0.3);
+  font-weight: 700;
+}
 
-  .home-nav {
-    position: relative;
-    z-index: 2000;
-    background-color: rgba(255, 255, 255, 0.5) !important;
-  }
+.home-nav {
+  position: relative;
+  z-index: 2000;
+  background-color: rgba(255, 255, 255, 0.5) !important;
+}
 
-  .navbar {
-      padding: 0;
-  }
+.navbar {
+  padding: 0;
+}
