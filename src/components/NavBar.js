@@ -24,7 +24,7 @@ export default function NavBar() {
               <NavDropdown.Item href="https://blinc.com.ng/" target="__blank" rel="noopener">
                 BLINC
               </NavDropdown.Item>
-              <NavDropdown.Item href="#">Excursion</NavDropdown.Item>
+              <NavDropdown.Item href="https://form.jotform.com/203441779991568" target="__blank" rel="noopener">Excursion</NavDropdown.Item>
               <NavDropdown.Item href="http://htgacademy.com/" target="__blank" rel="noopener">HTG Academy</NavDropdown.Item>
               <NavDropdown.Divider />
               <NavDropdown.Item href="https://form.jotform.com/203304865946562" target="__blank" rel="noopener">

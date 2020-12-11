@@ -11,7 +11,7 @@ export default function Featuresection() {
   return (
     <Container>
       <Row className="justify-content-around mb-2 pt-4 pb-4">
-        <Topbox name="EVENTS" brName="Book Now" image={booking} alt="events" />
+        <Topbox name="EVENTS" brName="Book Now" image={booking} alt="events" link="https://form.jotform.com/203441779991568" />
         <Topbox name="BLINC  All-in-one tech school solution" brName="Request a Demo" image={demo} alt="request demo" />
         <Topbox name="Online Public Access Catalog" brName="Try it" image={tryit} alt="Try it" link="http://opac.theibomelibrary.com/" />
         <Topbox name="HTG Academy" brName="Register Now" image={registration} alt="registration" />

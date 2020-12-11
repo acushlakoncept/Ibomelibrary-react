@@ -8,7 +8,7 @@ export default function Topbox({
   return (
     <div className="top__box">
       <img src={image} className="top__box--img rounded" alt={alt} />
-      <a href={link} className="btn-htg top__box--btn">
+      <a href={link} target="__blank" rel="noopener" className="btn-htg top__box--btn">
         <span className="htg-b">{name}</span>
         <br />
         {brName}
