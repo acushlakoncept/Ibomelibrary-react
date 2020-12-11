@@ -9,7 +9,7 @@ const history = createBrowserHistory();
 const Routes = () => (
   <Router history={history}>
     <Route exact path="/about" component={About} />
-    <Route path="/" component={App} />
+    <Route exact path="/" component={App} />
   </Router>
 );
 
