@@ -20,7 +20,7 @@ export default function NavBar() {
           <Nav>
             <Nav.Link href="/about">About</Nav.Link>
             <NavDropdown title="Products" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="http://opac.theibomelibrary.com/" target="__blank" rel="noopener">Elibrary Access</NavDropdown.Item>
+              <NavDropdown.Item href="https://search.theibomelibrary.com/" target="__blank" rel="noopener">Elibrary Access</NavDropdown.Item>
               <NavDropdown.Item href="https://blinc.com.ng/" target="__blank" rel="noopener">
                 BLINC
               </NavDropdown.Item>
